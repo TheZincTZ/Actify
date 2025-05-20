@@ -1,10 +1,12 @@
-import Todo from './components/Todo'
+import TaskBoard from './components/TaskBoard'
 import { ThemeProvider } from './context/ThemeContext'
+import { CssBaseline } from '@mui/material'
 
 function App() {
   return (
     <ThemeProvider>
-      <Todo />
+      <CssBaseline />
+      <TaskBoard />
     </ThemeProvider>
   )
 }
